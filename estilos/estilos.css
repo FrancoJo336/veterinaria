@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+body{
+    background-image: url(../img/fondo1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.content{
+    width: auto;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+.clearfix{
+    clear: both;
+    float: none;
+}
+.nav{
+    font-weight: bolder;
+}
+ nav img{
+    float: left;
+    height: 95px;
+    width: auto;
+}
+.half{
+    display: flex;
+    overflow: auto;
+}
+
+.content h1{
+    margin-top: px;
+    line-height: auto;
+    background-color: rgba(216,157,69,255);
+    border-radius: 30px;
+    font-weight: bolder;
+    text-align: center;
+}
+.col img{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    margin-bottom:-30px;
+    border-radius: 10px;
+    align-self: center;
+}
+.col:nth-child(1) img{
+    width: 100%;
+}
+.col:nth-child(2) img{
+    width: 75%;
+}
+.col:nth-child(3) img{
+    width: 73%;
+}
+.descripcion{
+    width: 100%;
+    background: #dfa34249;
+    padding: 80px 0;
+    text-align: center;
+}
+.descripcion p{
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    text-shadow:-1px 0 rgb(255, 255, 255), 0 1px rgb(255, 255, 255), 1px 0 rgb(255, 255, 255), 0 -1px rgb(255, 255, 255);
+}
+.descripcion h1{
+    line-height: 50px;
+}
+.descripcion h3{
+    line-height: 50px;
+}
+.descripcion p{
+    line-height: 30px;
+}
